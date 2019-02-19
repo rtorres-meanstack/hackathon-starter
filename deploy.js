@@ -30,7 +30,7 @@ function transferProjectToRemote(failed, successful) {
       validate: function(itemPath) {
         const baseName = path.basename(itemPath);
         return (
-          baseName.substr(0, 1) !== '.' && baseName !== 'node_modules' // do not allow dot files
+          baseName !== 'node_modules' // do not allow dot files
         ); // do not allow node_modules
       },
       tick: function(localPath, remotePath, error) {
