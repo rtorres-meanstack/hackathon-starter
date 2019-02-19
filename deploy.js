@@ -86,7 +86,7 @@ function sshConnect() {
   ssh
     .connect({
       // TODO: ADD YOUR IP ADDRESS BELOW (e.g. '12.34.5.67')
-      host: 'ec2-3-88-196-127.compute-1.amazonaws.com',
+      host: 'ec2-3-85-98-70.compute-1.amazonaws.com',
       username: 'ubuntu',
       privateKey: 'example-key3.ppk'
     })
